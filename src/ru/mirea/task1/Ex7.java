@@ -16,4 +16,5 @@ public class Ex7 {
         }
         System.out.println(factor);
     }
+
 }
