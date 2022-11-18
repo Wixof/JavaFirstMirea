@@ -1,12 +1,12 @@
 package ru.mirea.task2;
 
 public class Ball {
-    private double radius;
+    private int radius;
     private String color;
 
-    public Ball(double radius, String color){
-        this.radius = 100;
-        this.color = "red";
+    public Ball(int radius, String color){
+        this.radius = radius;
+        this.color = color;
     }
     public double getRadius(){
         return getRadius();
