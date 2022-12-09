@@ -54,8 +54,8 @@ public class Task10 {
     }
 
     public static void main(String[] args) {
-//        task12();
-//        task13();
+        task12();
+        task13();
         task14(67403, 0);
     }
 }
