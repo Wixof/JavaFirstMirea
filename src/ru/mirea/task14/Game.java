@@ -12,7 +12,7 @@ public class Game {
         for (i = 0; i < 106 && !pile1.isEmpty() && !pile2.isEmpty(); i++) {
             int card1 = pile1.popFront();
             int card2 = pile2.popFront();
-//            System.out.println(card1 + " " + card2);
+            System.out.println(card1 + " " + card2);
 
             Pile winner = (card1 > card2)? pile1 : pile2;
             winner.pushBack(card1);
@@ -20,7 +20,7 @@ public class Game {
 
 //            pile1.print();
 //            pile2.print();
-//            System.out.println();
+           System.out.println();
         }
 
         if (pile1.isEmpty()) {
