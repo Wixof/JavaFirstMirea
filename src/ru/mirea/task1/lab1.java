@@ -73,9 +73,9 @@ public class lab1 {
         int[] array = {1, 2, 3, 4};
         sum(array);
 
-//        printArgs(args);
-        //    harmonics(10);
-//        randomSort();
-        // fact(5);
+        printArgs(args);
+        harmonics(10);
+        randomSort();
+        fact(5);
     }
 }

@@ -36,7 +36,7 @@ public class FileAccess {
     }
 
     public static void main(String[] args) {
-        String path = "C:\\Projects\\Mirea\\Java\\JavaFirstMirea\\src\\ru\\mirea\\task15\\text.txt";
+        String path = "C:\\Users\\Юра\\IdeaProjects\\JavaFirstMirea\\src\\ru\\mirea\\task15\\text.txt";
         String text = readConsoleLine();
         writeToFile(path, text, true);
 
